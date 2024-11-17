@@ -12,9 +12,10 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    
+
     permissions:
       contents: write
+      pages: write
 
     strategy:
       matrix:
